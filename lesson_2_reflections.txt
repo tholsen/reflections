@@ -22,4 +22,12 @@ logical change?
     Once the files that were modified by the logical change are in the 
     staging area, they can be committed using the git commit command.
 
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+    A couple of situations where branching may be helpful are when you 
+    want to try an experimental feature or making a new version in a 
+    different language. Branches help by allowing you to try you
+    modifications without changing the master branch.
+
 
