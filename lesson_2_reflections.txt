@@ -13,4 +13,13 @@ repository? What value do you think it offers?
     in the repository as well as other files that may not be a part of
     the project.
 
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+    By using the commands git diff and git diff --staged we can ensure
+    that only one logical change per commit. git diff gives the
+    difference between the working directory copy and the staging area.
+    Once the files that were modified by the logical change are in the 
+    staging area, they can be committed using the git commit command.
+
 
