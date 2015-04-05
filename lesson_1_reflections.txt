@@ -1,0 +1,3 @@
+The diff command highlighted the differences between the two source
+files. This way I did not have to search for the differences line by 
+line.
