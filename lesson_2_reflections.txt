@@ -1,14 +1,14 @@
 What happens when you initialize a repository? Why do you need to do it?
 
     When you initialize a repository, git sets up the .git directory with a
-    number of subdirectories and files in it. You need to initialize a 
+    number of subdirectories and files in it. You need to initialize a
     repository so that you will have a place to store the meta information
     about the files in your repository.
 
 How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 
-    The staging area is a place where you can combine files that will be 
+    The staging area is a place where you can combine files that will be
     committed to a repository. The working directory contains the files
     in the repository as well as other files that may not be a part of
     the project.
@@ -19,15 +19,32 @@ logical change?
     By using the commands git diff and git diff --staged we can ensure
     that only one logical change per commit. git diff gives the
     difference between the working directory copy and the staging area.
-    Once the files that were modified by the logical change are in the 
+    Once the files that were modified by the logical change are in the
     staging area, they can be committed using the git commit command.
 
 What are some situations when branches would be helpful in keeping your
 history organized? How would branches help?
 
-    A couple of situations where branching may be helpful are when you 
-    want to try an experimental feature or making a new version in a 
-    different language. Branches help by allowing you to try you
+    A couple of situations where branching may be helpful are when you
+    want to try an experimental feature or making a new version in a
+    different language. Branches help by allowing you to try your
     modifications without changing the master branch.
 
+How do the diagrams help you visualize the branch structure?
 
+    The diagrams show where branches occur, branch names, and the
+    commit history.
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+    A new branch that combines the changes made in the two branches. A merge
+    is represented in the diagram in such a way as to show that the two
+    branches have been combined.
+
+What are the pros and cons of Git’s automatic merging vs. always
+doing merges manually?
+
+    The automatic merging can save time if it can be done, however, allowing
+    the user to handle conflicts saves on the complexity of the git code and
+    keeps errors from being introduced.
