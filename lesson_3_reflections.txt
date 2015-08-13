@@ -35,3 +35,10 @@ and what would be harder?
     have to keep all the files on his computer and the other person would have
     to send changes to that person. This would make life for the programmers
     extremely difficult.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+    When the project is owned by another person, you should create a branch so
+    that the project manager can review the modifications and, if approved, the
+    project manager can merge the changes into the master branch.
