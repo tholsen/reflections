@@ -18,3 +18,20 @@ you use one instead of another?
     account whereas a clone is a copy of your github repository on your local
     machine. A branch is a separate set of files used to test changes or new
     features in your code.
+
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+    The benefit of having a copy of the last known state of the remote stored
+    locally is that you can quickly see differences between the your
+    modifications and the remote modifications with the last know state of
+    the remote repository.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+    Without using a version control system like Git or GitHub, one would have
+    to rely on email between collaborators to modify files. One person would
+    have to keep all the files on his computer and the other person would have
+    to send changes to that person. This would make life for the programmers
+    extremely difficult.
